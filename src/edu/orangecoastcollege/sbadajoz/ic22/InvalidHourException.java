@@ -7,7 +7,7 @@ November 18, 2016
 IC22
 */
 public class InvalidHourException extends Exception {
-    public InvalidHourException(String messege) {
-        super(messege);
+    public InvalidHourException(String message) {
+        super(message);
     }
 }
