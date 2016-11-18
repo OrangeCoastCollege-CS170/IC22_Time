@@ -7,5 +7,7 @@ November 18, 2016
 IC22
 */
 public class InvalidMeridiemException extends Exception {
-
+    public InvalidMeridiemException(String message) {
+        super(message);
+    }
 }
